@@ -4680,7 +4680,7 @@ export const mockAccounts: Account[] = [
         amount_usd: -23.00
       },
       {
-        dateTime: 'September 25, 2025',
+        dateTime: 'September 24, 2025',
         description: 'Transfer from bright future  - XXXXXX4648',
         status: 'Success',
         amount_usd: 300.00
