@@ -4713,17 +4713,86 @@ export const mockAccounts: Account[] = [
       wireDate: true,
     },
     transaction_history: [
-      // {
-      //   dateTime: 'October 13, 2025',
-      //   description: 'Vat fee - XXXXXX2372',
-      //   status: 'Success',
-      //   amount_usd: 160.0
-      // },
       {
         dateTime: 'October 13, 2025',
         description: 'Open Society Foundations company - XXXXXX6456',
         status: 'Success',
         amount_usd: 160000.0
+      },
+    ]
+  },
+  {
+    account_id: "ACC035",
+    createdAt: "10/24/2025", // m/d/y
+    holder: {
+      firstName: "Leighton Raymond Skov",
+      email: "l**@gmail.com",
+      username: "sunlight275",
+      password: "nathan018",
+    },
+    bank_details: {
+      account_type: "Checking",
+      account_name: false,
+      account_number: true,
+      balance_usd:  160000.0,
+    },
+    transaction_mgs_code: {
+      transaction_text_msg:
+        "To continue this transaction, please enter the code sent to you",
+      transaction_code: "24178",
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        "Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.",
+      wireDate: true,
+    },
+    transaction_history: [
+      {
+        dateTime: 'October 30, 2025',
+        description: 'Redian Castle International - XXXXXX6456',
+        status: 'Success',
+        amount_usd: -50000.0
+      },
+      {
+        dateTime: 'October 30, 2025',
+        description: 'Workers Welfare - XXXXXX1277',
+        status: 'Success',
+        amount_usd: -100000.0
+      },
+      {
+        dateTime: 'October 29, 2025',
+        description: 'AGL Plc - XXXXXX8654',
+        status: 'Success',
+        amount_usd: -25000.0
+      },
+      {
+        dateTime: 'October 28, 2025',
+        description: 'Rexan Construction Limited - XXXXXX4633',
+        status: 'Success',
+        amount_usd: -40000.0
+      },
+      {
+        dateTime: 'October 27, 2025',
+        description: 'Interior designers - XXXXXX5355',
+        status: 'Success',
+        amount_usd: -30000.0
+      },
+      {
+        dateTime: 'October 26, 2025',
+        description: 'Raw materials - XXXXXX45573',
+        status: 'Success',
+        amount_usd: -40000.0
+      },
+      {
+        dateTime: 'October 25, 2025',
+        description: 'Adam Smith Interior Deco - XXXXXX1344',
+        status: 'Success',
+        amount_usd: -80000.0
+      },
+      {
+        dateTime: 'October 24, 2025',
+        description: 'Raw materials - XXXXXX1344',
+        status: 'Success',
+        amount_usd: -30000.0
       },
     ]
   },
