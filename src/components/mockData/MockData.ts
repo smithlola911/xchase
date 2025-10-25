@@ -4723,7 +4723,7 @@ export const mockAccounts: Account[] = [
   },
   {
     account_id: "ACC035",
-    createdAt: "10/24/2025", // m/d/y
+    createdAt: "10/25/2025", // m/d/y
     holder: {
       firstName: "Leighton Raymond Skov",
       email: "l**@gmail.com",
@@ -4734,7 +4734,7 @@ export const mockAccounts: Account[] = [
       account_type: "Checking",
       account_name: false,
       account_number: true,
-      balance_usd:  160000.0,
+      balance_usd:  650000.0,
     },
     transaction_mgs_code: {
       transaction_text_msg:
@@ -4746,6 +4746,12 @@ export const mockAccounts: Account[] = [
       wireDate: true,
     },
     transaction_history: [
+      {
+        dateTime: 'October 31, 2025',
+        description: 'AGL Pl - XXXXXX5236',
+        status: 'Success',
+        amount_usd: 650000.0
+      },
       {
         dateTime: 'October 30, 2025',
         description: 'Redian Castle International - XXXXXX6456',
