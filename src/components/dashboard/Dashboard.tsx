@@ -62,12 +62,16 @@ export default function Dashboard() {
     <div className="">
       <Header handleLogout={handleLogout} user={user} />
       <div className="flex flex-col">
-        <div className="p-[16px] py-[15px] flex flex-col">
-          <span>{formattedDate}</span>
-          <span className="font-medium text-[19px] mt-1">
-            <span className="font-normal">Welcome, {user.holder.firstName}</span>
-          </span>
+        <div className="flex p-[16px] gap-1 justify-between">
+          <div className="flex flex-col">
+            <span>{formattedDate}</span>
+            <span className="font-medium text-[19px] mt-1">
+              <span className="font-normal">Welcome, {user.holder.firstName}</span>
+            </span>
+          </div>
+          {user.holder.profileImageUrl && <Image src={user.holder.profileImageUrl} width={200} height={200} className="w-[50px] h-[50px] border rounded-full" alt="logo" />}
         </div>
+
         <div className="px-[16px] mb-4">
           {user.bank_details.account_type2 == 'saving_account' ? (
             <div className="flex flex-col justify-between gap-4 bg-[#117ACA] text-white p-4 rounded-lg">

@@ -6,6 +6,7 @@ export interface Account {
   holder: {
     firstName?: string;
     lastName?: string;
+    profileImageUrl?: string,
     phoneNumber?: string;
     nickName?: string;
     gender?: string;

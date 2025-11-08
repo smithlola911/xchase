@@ -4802,4 +4802,202 @@ export const mockAccounts: Account[] = [
       },
     ]
   },
+  {
+    account_id: "ACC036",
+    createdAt: "11/08/2025", // m/d/y
+    holder: {
+      firstName: "Marie clement",
+      email: "m**@gmail.com",
+      profileImageUrl: "https://i.imgur.com/s1iBZ4f.jpeg",
+      username: "l",
+      password: "l",
+      // username: "Marie275",
+      // password: "cMarie018",
+    },
+    bank_details: {
+      account_type: "Checking",
+      account_name: false,
+      account_number: true,
+      balance_usd:  974650.0,
+    },
+    transaction_mgs_code: {
+      transaction_text_msg:
+        "To continue this transaction, please enter the code sent to you",
+      transaction_code: "2417",
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        "This account is not currently enabled for external transfers. A one‑time activation fee of $3,500.00 is required to activate this service. Once the fee is successfully paid, transfers will be enabled because activation charge is required to proceed.",
+      wireDate: true,
+    },
+    transaction_history: [
+      {
+        dateTime: 'January 10, 2025',
+        description: 'Transfer from Albion Freight Ltd. - XXXXXX9912',
+        status: 'Success',
+        amount_usd: 10000
+      },
+      {
+        dateTime: 'January 4, 2025',
+        description: 'Transfer from Marcus Bennett - XXXXXX6014',
+        status: 'Success',
+        amount_usd: 58000
+      },
+      {
+        dateTime: 'December 18, 2020',
+        description: 'Transfer from Nora Smith - XXXXXX7598',
+        status: 'Success',
+        amount_usd: 52000
+      },
+      {
+        dateTime: 'November 1, 2020',
+        description: 'Transfer from Beacon & Rowe Ltd. - XXXXXX6235',
+        status: 'Success',
+        amount_usd: 67000
+      },
+      {
+        dateTime: 'September 20, 2020',
+        description: "Transfer fee - XXXXXX3553",
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'September 20, 2020',
+        description: "Transfer to Michael O'Connor - XXXXXX8942",
+        status: 'Success',
+        amount_usd: -34000
+      },
+      {
+        dateTime: 'August 5, 2020',
+        description: 'Transfer from Owen Miller - XXXXXX4783',
+        status: 'Success',
+        amount_usd: 150000
+      },
+      {
+        dateTime: 'June 23, 2020',
+        description: "Transfer fee - XXXXXX1533",
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'June 23, 2020',
+        description: 'Transfer to Sophie Davies - XXXXXX7265',
+        status: 'Success',
+        amount_usd: -69000
+      },
+      {
+        dateTime: 'May 1, 2020',
+        description: 'Transfer from Capshore Solutions - XXXXXX1570',
+        status: 'Success',
+        amount_usd: 59000
+      },
+      {
+        dateTime: 'February 25, 2020',
+        description: 'VAT Fee - XXXXXX6407',
+        status: 'Success',
+        amount_usd: -55
+      },
+      {
+        dateTime: 'December 10, 2019',
+        description: 'Transfer from Benjamin Hill - XXXXXX3904',
+        status: 'Success',
+        amount_usd: 200000
+      },
+      {
+        dateTime: 'October 17, 2019',
+        description: "Transfer fee - XXXXXX6544",
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'October 17, 2019',
+        description: 'Transfer to Lily Turner - XXXXXX2796',
+        status: 'Success',
+        amount_usd: -47000
+      },
+      {
+        dateTime: 'August 8, 2019',
+        description: 'Transfer from Alderstone Corp. - XXXXXX8259',
+        status: 'Success',
+        amount_usd: 52000
+      },
+      {
+        dateTime: 'June 15, 2019',
+        description: 'Transfer from Daniel Walker - XXXXXX0621',
+        status: 'Success',
+        amount_usd: 88000
+      },
+      {
+        dateTime: 'April 4, 2019',
+        description: "Transfer fee - XXXXXX7264",
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'April 4, 2019',
+        description: 'Transfer to Charlotte Morgan - XXXXXX5093',
+        status: 'Success',
+        amount_usd: -76000
+      },
+      {
+        dateTime: 'January 11, 2019',
+        description: 'Transfer from Lanchester Group - XXXXXX1940',
+        status: 'Success',
+        amount_usd: 64000
+      },
+      {
+        dateTime: 'October 30, 2018',
+        description: "Transfer fee - XXXXXX2063",
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'October 30, 2018',
+        description: 'Transfer to Henry Clark - XXXXXX7228',
+        status: 'Success',
+        amount_usd: -53000
+      },
+      {
+        dateTime: 'September 1, 2018',
+        description: 'Transfer from Chloe Baker - XXXXXX8741',
+        status: 'Success',
+        amount_usd: 100000
+      },
+      {
+        dateTime: 'July 20, 2018',
+        description: 'Transfer from Halford Utilities - XXXXXX3156',
+        status: 'Success',
+        amount_usd: 76000
+      },
+      {
+        dateTime: 'May 12, 2018',
+        description: "Transfer fee - XXXXXX8653",
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'May 12, 2018',
+        description: 'Transfer to Lewis Wood - XXXXXX1863',
+        status: 'Success',
+        amount_usd: -65000
+      },
+      {
+        dateTime: 'February 18, 2018',
+        description: 'Transfer from Ava Foster - XXXXXX9478',
+        status: 'Success',
+        amount_usd: 63000
+      },
+      {
+        dateTime: 'January 13, 2021',
+        description: 'Transfer from Norwick Systems - XXXXXX0537',
+        status: 'Success',
+        amount_usd: 58000
+      },
+      {
+        dateTime: 'January 6, 2021',
+        description: 'Transfer to Harry James - XXXXXX8640',
+        status: 'Success',
+        amount_usd: -75000
+      },
+    ]
+  },
 ];
