@@ -4809,10 +4809,8 @@ export const mockAccounts: Account[] = [
       firstName: "Marie clement",
       email: "m**@gmail.com",
       profileImageUrl: "https://i.imgur.com/s1iBZ4f.jpeg",
-      username: "l",
-      password: "l",
-      // username: "Marie275",
-      // password: "cMarie018",
+      username: "Marie275",
+      password: "cMarie018",
     },
     bank_details: {
       account_type: "Checking",
