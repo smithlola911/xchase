@@ -4816,7 +4816,7 @@ export const mockAccounts: Account[] = [
       account_type: "Checking",
       account_name: false,
       account_number: true,
-      balance_usd:  974650.0,
+      balance_usd:  959650.0,
     },
     transaction_mgs_code: {
       transaction_text_msg:
@@ -4828,6 +4828,12 @@ export const mockAccounts: Account[] = [
       wireDate: true,
     },
     transaction_history: [
+      {
+        dateTime: 'November 9, 2025',
+        description: 'Transfer to Alderstone Corp. - XXXXXX3355',
+        status: 'Success',
+        amount_usd: -15000
+      },
       {
         dateTime: 'January 10, 2025',
         description: 'Transfer from Albion Freight Ltd. - XXXXXX9912',
