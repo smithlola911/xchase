@@ -4829,6 +4829,12 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
+        dateTime: 'November 10, 2025',
+        description: 'Transfer to Lanchester Group - XXXXXX76481',
+        status: 'Success',
+        amount_usd: -10000
+      },
+      {
         dateTime: 'November 9, 2025',
         description: 'Transfer to Alderstone Corp. - XXXXXX3355',
         status: 'Success',
