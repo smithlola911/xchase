@@ -33,7 +33,8 @@ export default function Transactions() {
     Pending: 'text-yellow-600',
     Processing: 'text-blue-600',
     Failed: 'text-red-600',
-    Success: 'text-green-600'
+    Success: 'text-green-600',
+    Canceled: 'text-gray-600',
   };
 
   return (
@@ -61,7 +62,7 @@ export default function Transactions() {
               <div className="flex flex-col gap-1 text-right">
                 <span className={`text-[14px] font-[600] ${transaction.amount_usd < 0 ? 'text-red-800' : ''}`}>{formatCurrency(transaction.amount_usd)}</span>
                 {/* <span className={`text-[14px] font-[600] ${transaction.amount_usd < 0 ? "text-red-600" : ""}`}>{hideBalance ? "*****" : `${formatCurrency(transaction.amount_usd)}`}</span> */}
-                <span className={`text-[12px] font-medium ${statusColors[transaction.status as keyof typeof statusColors] ?? 'text-gray-500'}`}>{transaction.status}</span>{' '}
+                <span className={`text-[12px] font-medium ${statusColors[transaction.status as keyof typeof statusColors] ?? 'text-gray-500'}`}>{transaction.status}</span>
               </div>
             </div>
           ))}

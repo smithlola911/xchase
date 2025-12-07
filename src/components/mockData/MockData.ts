@@ -4829,9 +4829,9 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: 'November 28, 2025',
+        dateTime: 'December 6, 2025',
         description: 'Transfer to Mircho Auto. - XXXXXX7103',
-        status: 'Processing',
+        status: 'Canceled',
         amount_usd: 26960.0
       },
       {

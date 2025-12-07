@@ -22,7 +22,8 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
     Pending: 'text-yellow-600',
     Processing: 'text-blue-600',
     Failed: 'text-red-600',
-    Success: 'text-green-600'
+    Success: 'text-green-600',
+    Canceled: 'text-gray-600',
   };
 
   return (
