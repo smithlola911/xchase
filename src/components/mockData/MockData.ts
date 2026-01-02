@@ -2956,8 +2956,8 @@ export const mockAccounts: Account[] = [
       lastName: "",
       phoneNumber: "***-***-****",
       email: "rubyashley384@gmail.com",
-      username: "Sirgrey0912",
-      password: "Godisgood1414",
+      username: "Sirgrey0912-expired",
+      password: "Godisgood1414-expired",
     },
     bank_details: {
       account_type: "Checking",
@@ -3020,8 +3020,8 @@ export const mockAccounts: Account[] = [
       lastName: "",
       phoneNumber: "***-***-****",
       email: "n@gmail.com",
-      username: "Chriswilliams1969",
-      password: "Lovemywife1969",
+      username: "Chriswilliams1969-expired",
+      password: "Lovemywife1969-expired",
     },
     bank_details: {
       account_type: "Checking",
@@ -3168,8 +3168,8 @@ export const mockAccounts: Account[] = [
       lastName: "",
       phoneNumber: "***-***-****",
       email: "b*@gmail.com",
-      username: "Bellamomma$",
-      password: "MOMMA112$",
+      username: "Bellamomma$-expired",
+      password: "MOMMA112$-expired",
     },
     bank_details: {
       account_type: "Checking",
@@ -3280,8 +3280,8 @@ export const mockAccounts: Account[] = [
       lastName: "",
       phoneNumber: "***-***-****",
       email: "l*@gmail.com",
-      username: "Lilianwillson",
-      password: "lilian1204",
+      username: "Lilianwillson-expired",
+      password: "lilian1204-expired",
     },
     bank_details: {
       account_type: "Checking",
@@ -3405,8 +3405,8 @@ export const mockAccounts: Account[] = [
       lastName: "",
       phoneNumber: "***-***-****",
       email: "p*@gmail.com",
-      username: "Philfleming$",
-      password: "Only1phil",
+      username: "Philfleming$-expired",
+      password: "Only1phil-expired",
     },
     bank_details: {
       account_type: "Checking",
@@ -3481,8 +3481,8 @@ export const mockAccounts: Account[] = [
       lastName: "",
       phoneNumber: "***-***-****",
       email: "katherineleonard770@gmail.com ",
-      username: "Katherineleonard770",
-      password: "Katty1167",
+      username: "Katherineleonard770-expired",
+      password: "Katty1167-expired",
     },
     bank_details: {
       account_type: "Checking",
@@ -3575,8 +3575,8 @@ export const mockAccounts: Account[] = [
       lastName: "",
       phoneNumber: "***-***-****",
       email: "a*@gmail.com ",
-      username: "Gray2635",
-      password: "Gray8$$790$7",
+      username: "Gray2635-expired",
+      password: "Gray8$$790$7-expired",
     },
     bank_details: {
       account_type: "Checking",
@@ -5020,6 +5020,235 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -75000
       },
+    ]
+  },
+  {
+    account_id: "ACC037",
+    createdAt: "1/02/2026", // m/d/y
+    holder: {
+      firstName: "Bernard Christianson",
+      email: "b**@gmail.com",
+      username: "BChristianson20",
+      password: "christiason2020",
+    },
+    bank_details: {
+      account_type: "Checking",
+      account_name: false,
+      account_number: true,
+      balance_usd:  2500000.0,
+    },
+    transaction_mgs_code: {
+      transaction_text_msg:
+        "To continue this transaction, please enter the code sent to you",
+      transaction_code: "2417",
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        "Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.",
+      wireDate: true,
+    },
+    transaction_history: [
+      {
+        dateTime: 'December 18, 2025',
+        description: 'Transfer from Nora Smith - XXXXXX7598',
+        status: 'Success',
+        amount_usd: 115600
+      },
+      {
+        dateTime: 'December 10, 2025',
+        description: 'Transfer from Benjamin Hill - XXXXXX3904',
+        status: 'Success',
+        amount_usd: 444800
+      },
+      {
+        dateTime: 'December 6, 2025',
+        description: 'Transfer to Mircho Auto. - XXXXXX7103',
+        status: 'Failed',
+        amount_usd: 26960
+      },
+
+      {
+        dateTime: 'November 20, 2025',
+        description: 'Transfer to Belcorhe corp. - XXXXXX5429',
+        status: 'Success',
+        amount_usd: -15000
+      },
+      {
+        dateTime: 'November 10, 2025',
+        description: 'Transfer to Lanchester Group - XXXXXX76481',
+        status: 'Success',
+        amount_usd: -10000
+      },
+      {
+        dateTime: 'November 9, 2025',
+        description: 'Transfer to Alderstone Corp. - XXXXXX3355',
+        status: 'Success',
+        amount_usd: -15000
+      },
+      {
+        dateTime: 'November 1, 2025',
+        description: 'Transfer from Beacon & Rowe Ltd. - XXXXXX6235',
+        status: 'Success',
+        amount_usd: 149000
+      },
+
+      {
+        dateTime: 'October 30, 2025',
+        description: 'Transfer fee - XXXXXX2063',
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'October 30, 2025',
+        description: 'Transfer to Henry Clark - XXXXXX7228',
+        status: 'Success',
+        amount_usd: -53000
+      },
+      {
+        dateTime: 'October 17, 2025',
+        description: 'Transfer fee - XXXXXX6544',
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'October 17, 2025',
+        description: 'Transfer to Lily Turner - XXXXXX2796',
+        status: 'Success',
+        amount_usd: -47000
+      },
+
+      {
+        dateTime: 'September 20, 2025',
+        description: 'Transfer fee - XXXXXX3553',
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'September 20, 2025',
+        description: "Transfer to Michael O'Connor - XXXXXX8942",
+        status: 'Success',
+        amount_usd: -34000
+      },
+      {
+        dateTime: 'September 1, 2025',
+        description: 'Transfer from Chloe Baker - XXXXXX8741',
+        status: 'Success',
+        amount_usd: 222400
+      },
+
+      {
+        dateTime: 'August 8, 2025',
+        description: 'Transfer from Alderstone Corp. - XXXXXX8259',
+        status: 'Success',
+        amount_usd: 115600
+      },
+      {
+        dateTime: 'August 5, 2025',
+        description: 'Transfer from Owen Miller - XXXXXX4783',
+        status: 'Success',
+        amount_usd: 333600
+      },
+
+      {
+        dateTime: 'July 20, 2025',
+        description: 'Transfer from Halford Utilities - XXXXXX3156',
+        status: 'Success',
+        amount_usd: 169000
+      },
+
+      {
+        dateTime: 'June 23, 2025',
+        description: 'Transfer fee - XXXXXX1533',
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'June 23, 2025',
+        description: 'Transfer to Sophie Davies - XXXXXX7265',
+        status: 'Success',
+        amount_usd: -69000
+      },
+      {
+        dateTime: 'June 15, 2025',
+        description: 'Transfer from Daniel Walker - XXXXXX0621',
+        status: 'Success',
+        amount_usd: 195700
+      },
+
+      {
+        dateTime: 'May 12, 2025',
+        description: 'Transfer fee - XXXXXX8653',
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'May 12, 2025',
+        description: 'Transfer to Lewis Wood - XXXXXX1863',
+        status: 'Success',
+        amount_usd: -65000
+      },
+      {
+        dateTime: 'May 1, 2025',
+        description: 'Transfer from Capshore Solutions - XXXXXX1570',
+        status: 'Success',
+        amount_usd: 131200
+      },
+
+      {
+        dateTime: 'April 4, 2025',
+        description: 'Transfer fee - XXXXXX7264',
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'April 4, 2025',
+        description: 'Transfer to Charlotte Morgan - XXXXXX5093',
+        status: 'Success',
+        amount_usd: -76000
+      },
+
+      {
+        dateTime: 'February 25, 2025',
+        description: 'VAT Fee - XXXXXX6407',
+        status: 'Success',
+        amount_usd: -55
+      },
+      {
+        dateTime: 'February 18, 2025',
+        description: 'Transfer from Ava Foster - XXXXXX9478',
+        status: 'Success',
+        amount_usd: 140100
+      },
+
+      {
+        dateTime: 'January 13, 2025',
+        description: 'Transfer from Norwick Systems - XXXXXX0537',
+        status: 'Success',
+        amount_usd: 128990
+      },
+      {
+        dateTime: 'January 11, 2025',
+        description: 'Transfer from Lanchester Group - XXXXXX1940',
+        status: 'Success',
+        amount_usd: 142300
+      },
+      {
+        dateTime: 'January 10, 2025',
+        description: 'Transfer from Albion Freight Ltd. - XXXXXX9912',
+        status: 'Success',
+        amount_usd: 22200
+      },
+      {
+        dateTime: 'January 6, 2025',
+        description: 'Transfer to Harry James - XXXXXX8640',
+        status: 'Success',
+        amount_usd: -75000
+      },
+      {
+        dateTime: 'January 4, 2025',
+        description: 'Transfer from Marcus Bennett - XXXXXX6014',
+        status: 'Success',
+        amount_usd: 128990
+      }
     ]
   },
 ];
