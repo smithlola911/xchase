@@ -5029,7 +5029,7 @@ export const mockAccounts: Account[] = [
       firstName: "Bernard Christianson",
       email: "b**@gmail.com",
       username: "BChristianson20",
-      password: "christiason2020",
+      password: "Christiason@202",
     },
     bank_details: {
       account_type: "Checking",
